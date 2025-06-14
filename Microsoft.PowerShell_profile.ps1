@@ -381,9 +381,6 @@ function dtop {
     Set-Location -Path $dtop
 }
 
-# Notepad++ open file
-Set-Alias -Name npp -Value 'C:\Program Files (x86)\Notepad++\notepad++.exe'
-
 # Simplified Process Management
 function k9 { Stop-Process -Name $args[0] }
 
